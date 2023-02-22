@@ -1,0 +1,23 @@
+{
+  "name": "testecucumberselenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":  
+     "node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter features/* --format html:cucumber-report.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.11.1",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chromedriver": "^110.0.0",
+    "geckodriver": "^3.2.0",
+    "selenium-webdriver": "^4.8.1"
+  }
+}
